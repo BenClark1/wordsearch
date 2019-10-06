@@ -40,7 +40,7 @@ def backward_index_converter(location):
     # the argument location is a tuple of two indecies, row and col
     # converts indecies from a backward puzzle to the correct indecies
     backward = "9876543210"
-    row_result = location[0] #here, the row doesn't change
+    row_result = location[0] # here, the row doesn't change
     col_result = int(backward[location[1]])
     return (row_result, col_result)
 
@@ -52,7 +52,7 @@ def check_down(puzzle, words):
         downward_puz.append("".join(column_list))
 
     words_found = check_forward(downward_puz, words)
-    for word in words_found: #correct the indecies
+    for word in words_found: # correct the indecies
         words_found[word] = downward_index_converter(words_found[word])
     return words_found
 
