@@ -1,5 +1,5 @@
 # Word Search
-In this project, I learned advanced skills involving strings, lists, dictionaries, and tuples in Python. Given a puzzle and a set of words, this program locates the position of the first letter of each word in the puzzle. It checks for words that are oriented forward, backward, up, down, and diagonally (down and to the right only). To run the program, make sure you have all the files in a directory then enter this command into your terminal:
+Given a puzzle and a set of words, this program locates the position of the first letter of each word in the puzzle. In this project, I learned advanced skills involving strings, lists, dictionaries, and tuples in Python. It checks for words that are oriented forward, backward, up, down, and diagonally (down and to the right only). To run the program, make sure you have all the files in a directory then enter this command into your terminal:
 ```
 $ python3 word_finder.py < puzzle0
 ```
